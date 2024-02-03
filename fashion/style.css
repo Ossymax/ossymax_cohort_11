@@ -1,0 +1,281 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .h-top{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        
+        }
+        .header-bottom{
+           display: flex;
+           padding: 10px;
+           background-color: #fff;
+        }    
+
+        .bbb{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 1rem;
+        }
+
+        input{
+            padding: 10px;
+            border-radius: 5px;
+            border: gray 1px solid;
+        }
+        .button{
+            background: orange;
+        }
+        nav ul{
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            
+        }
+        nav a{
+            color: #333;
+            display: inline;
+            text-decoration: none;
+            
+        }
+        .fashion{
+            background: #fff;
+            text-align: center;
+            margin-bottom: 10px ;
+        }
+        .fashion p{
+            color: #444;
+        }
+        .call {
+            background-color: orange;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            font-weight: 900;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 5px;        
+        }
+
+        .product img:hover{
+            background-color: orange;
+            transform: scaleY(1.1);
+        }
+        .recommendation{
+            margin-top: 3rem;
+        }
+
+        .cat-sidebar{
+            background-color: #fff;
+            width: 30%;
+        }
+        .img-sidebar{
+            width: 65%;
+        }
+        .p{
+            background-color: red;
+            text-align: center;
+            color: white;
+            padding: 4px;
+            border-radius: 5px;
+        }
+        .img-cat:hover{
+            transform: scaleX(1.1);
+        }
+
+        .cat-sidebar a{
+            color: #333;
+            text-decoration: none;
+        }
+        .cat-sidebar a:hover{
+            background-color: #ddd;
+            padding: 1rem;
+        }
+        .cat-sidebar h3:hover{
+            background-color: #ddd;
+            padding: 1rem;
+        }
+        .cat-sidebar li{
+            list-style: none;
+            padding: 0.5rem;
+        }
+        .category{
+            display: flex;
+            padding-left: 5px;
+
+        }
+        .brand input{
+            width: 80%;
+            border-radius: 15px;
+        }
+        .checkbox{
+            padding-left: 1rem;
+            padding-top: 1rem;
+           
+        }
+        label {
+           font-size: 0.9rem;
+        }
+        .checkbox div{
+            padding-top: 1rem;
+        }
+        
+        .checkbox h1{
+            font-size: 1rem;
+        }
+        
+     
+        .checkbox div:hover{
+            padding: 1rem;
+            background-color: orange;
+        }
+
+        .flex{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .input-inner input{
+            width: 50%;
+        }
+        .input-inner {
+            width: 80%;
+        }
+        .line{
+            height: 5px;
+            width: 80%;
+            background-color: orange;
+            border-radius: 10px;
+        }
+
+        
+.nxt-footer{
+    background-color: #565658;
+}
+.fap{
+    font-size: 13px;
+}
+
+.paddyman{
+    font-size: 11px;
+}
+
+.coderX{
+    width: 82%;
+}
+
+.coderP{
+    width: 60%;
+    margin-left: 35px;
+}
+
+hr{
+    width: 88%;
+}
+
+.botlink{
+    padding: 12px 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.botlink:hover{
+    border: 1px solid rgb(247, 109, 18);
+    color: rgb(247, 109, 18);
+}
+
+.botlink2{
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+
+.botlink2:hover{
+    border: 1px solid rgb(247, 109, 18);
+}
+
+.sublink{
+    font-size: 8px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sublink:hover{
+    color: rgb(247, 109, 18);
+}
+
+
+.sublink2{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.sublink2:hover{
+    color: rgb(247, 109, 18);
+}
+
+.main-form{
+    position: relative;
+}
+
+.font-1{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+.font-2{
+    position: absolute;
+    top: 18px;
+    left: 8px;
+}
+
+.footer-logo{
+    margin-left: -15px;
+}
+
+input[type=email]:focus {
+    border: solid rgb(247, 109, 18);
+    outline: none;
+  }
+
+.mailer:hover{
+    color: rgb(247, 109, 18);
+}
+
+.a-special{
+    text-decoration: none;
+}
+
+.a-special:hover{
+    text-decoration: underline;
+}
+
+.text-p:hover{
+    color: rgb(247, 109, 18);
+}
