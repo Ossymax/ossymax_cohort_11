@@ -42,22 +42,50 @@
      <!-- MENU 2 -->
     <div class="menu2">
         <img src="./images/Jumia-Logo.png" alt="">
-        <div class="right">
+        <div class="col right">
             <span class="input-container">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input type="search" name="" id="" placeholder="Search products, brands and categories">
             </span>
-            <button>SEARCH</button>  
-            <span class="ext">
-                <i class="fa-regular fa-user"></i>
-                <a href="#">Account</a>
-                <i class="fa-solid fa-caret-down"></i>
+            <button>SEARCH</button>
+
+
+            <span class="ext dropdown-center">
+                <a href="" class="btn-warning dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-user"></i> <span class="track">Account</span>
+                </a>
+
+                <ul class="dropdown-menu ps-3">
+                    <div class="btn btn-button w-75 mx-2">SIGN IN</div>
+
+                    <hr class="w-100">
+                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> My Account</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-whiskey-glass"></i> Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hard-drive"></i> Saved Items</a></li>
+                  </ul>
             </span>
-            <span class="ext">
-                <i class="fa-regular fa-circle-question"></i>
-                <a href="#">Help</a>
-                <i class="fa-solid fa-caret-down"></i>
+
+
+            <!-- Help button on header -->
+            <span class="ext dropdown-center">
+                <a href="" class="btn-warning dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-circle-question"></i> <span class="track">Help</span>
+                </a>
+
+                <ul class="dropdown-menu ps-3">
+                    
+
+                    
+                    <li><a class="dropdown-item" href="#"> Help Center</a></li>
+                    <li><a class="dropdown-item" href="#"> Place an order</a></li>
+                    <li><a class="dropdown-item" href="#"> Payment options</a></li>
+                    <li><a class="dropdown-item" href="#">Track an order</a></li>
+                    <li><a class="dropdown-item" href="#"> Cancel an order</a></li>
+                    <li><a class="dropdown-item" href="#"> Return & Refunds</a></li>
+
+                    <hr class="w-100">
+                    <div class="btn btn-button w-75 mx-2">LIVE CHAT</div>
+                  </ul>
             </span>
+
             <span class="ext">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <a href="#">Cart</a>

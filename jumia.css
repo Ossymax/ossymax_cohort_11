@@ -212,15 +212,24 @@ body {
     border: 1px solid #d4710d;
 }
 
-
-
-
 .right .ext a{
     text-decoration: none;
     font-weight: 500;
     font-size: 17px;
     color: #2b2b2b;
     padding-left: 0px;
+}
+
+.right .ext a span{
+    color: #2b2b2b;
+}
+
+.right .ext a span:hover{
+    color: #F68B1E;
+}
+
+.right .ext {
+    white-space: nowrap;
 }
 
 .right .ext i {
@@ -237,6 +246,27 @@ body {
 
 .right .ext:hover i {
     color: #F68B1E;
+}
+
+span.ext.dropdown-center li {
+    line-height: 30px;
+    color: gray;
+}
+
+
+span.ext.dropdown-center:hover li a {
+    color: gray
+}
+  
+  span.ext.dropdown-center:hover li a i {
+    color: gray
+}
+
+.btn-button {
+    background-color: #F68B1E !important;
+    color: white !important;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    padding-left: 50px;
 }
 
 
