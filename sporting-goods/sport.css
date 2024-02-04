@@ -1,0 +1,132 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+.murp{
+    background-color: navy;
+}
+
+.gig img{
+    width: 70%;
+    margin-left: 230px;
+    margin-bottom: -4px;
+}
+
+.me{
+    text-decoration: none;
+    color: orange;
+    font-size: 12px;
+}
+
+.me:hover{ 
+    text-decoration: underline;
+}
+
+
+.sell a :hover{
+    text-decoration: underline;
+
+}
+
+
+.sell img{
+    width: 9px;
+
+}
+.paid a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(143, 134, 134);
+    margin: 0px 10px;
+}
+.paid :hover {
+    color: rgb(48, 241, 248);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+
+.pay a{
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.pay a:hover{
+    color: orangered;
+}
+
+.sell{
+    display: flex;
+}
+
+
+.others img{
+    width: 45px;
+}
+
+.header1{
+    background-color: rgb(219, 209, 209);
+    height: 25px;
+    padding-top: 5px;
+}
+
+.logo{
+    flex: 1;
+    margin-left: 300px;
+}
+
+
+
+.others{
+    margin-right: 500px;
+
+}
+
+
+.header-2{
+    display: flex;
+    background-color: seashell;
+    
+    
+}
+
+.main{
+    position: sticky;
+    top: 0;
+}
+
+.search{
+    height: 28px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 0 15px;
+}
+
+
+
+.header-2 input{
+    height: 28px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: darkgray;
+}
+
+
+.header-2 form{
+    margin: auto;
+
+}
+
+.logo2{
+    margin-left: 200px;
+    padding: 10px 0px;
+
+}
