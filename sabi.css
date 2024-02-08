@@ -170,6 +170,7 @@ nav ul li a {
 
 .apt{
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .hamburg-line-ht{
