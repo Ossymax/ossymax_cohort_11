@@ -1,0 +1,827 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+body {
+    background-color: #f0f0f0 !important;
+    background-image: url(../images/Jumia-cover-you-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+
+    
+    width: 100%;
+    overflow-x: hidden;
+
+} 
+
+
+.container {
+    width:85vw;
+    margin: auto;
+}
+
+.top-anime {
+    background-image: url(../images/Jumia-cover-you.gif);
+    height: 55px;
+    background-size: cover;
+    background-position: right;
+
+    
+}
+
+.menu {
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(240, 240, 240);
+    right: 0px;
+    left: 0px;
+    height: 32px;
+    
+
+    position: absolute;
+}
+
+.container .sell-on-jumia {
+    position: absolute;
+    line-height: 2;
+    z-index: 2;
+    left: 8vw;
+    color: #F68B1E;
+    font-size: 14px;
+
+    top: 3px;
+    /* line-height: 20px; */
+    
+}
+
+.sell-on-jumia img {
+    width: 13px;
+    top: 8px;
+    position: absolute;
+}
+
+
+.sell-on-jumia a {
+    color: #F68B1E;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 18px;
+
+    /* letter-spacing: 0.5px; */
+}
+
+
+
+.menu ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+    align-items: center;
+    position: relative;
+    left: 60px;
+    margin-bottom: 0;
+}
+
+.menu ul li img {
+    padding-top: 7px;
+    width: 56px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li i, .menu ul li a  {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    
+}
+
+.menu ul li a {
+    font-weight: 400;
+}
+
+
+.menu ul li:hover a  {
+    color: rgb(30, 144, 238);
+}
+
+.menu ul li:hover i  {
+    color: rgb(30, 144, 238);
+}
+
+
+/* MENU 2 CSS DESIGN STARTS HERE*/
+
+.menu2 {
+    position: sticky !important;
+    top: 2px;
+    background-color: white;
+    margin-top: 32px;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    padding: 0 4vw 0 8vw;
+
+
+    display: flex;
+    justify-content: space-around;
+
+    z-index: 1000;
+    
+}
+
+.menu2 img {
+    width: 130px;
+}
+
+.menu2 .right {
+    flex: 1;
+    display: flex;
+    /* background-color: lightblue; */
+    column-gap: 10px;
+    padding-left: 6vw;
+    align-items: center;
+    font-size: 15px;
+    /* justify-content: space-between; */
+
+}
+
+.menu2 .hamburg {
+    color: black;
+}
+
+.menu2 .hamburg:hover {
+    color: #F68B1E;
+    cursor: pointer
+}
+
+.btn-button {
+    background-color: #F68B1E !important;
+    color: white !important;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    padding-left: 50px;
+}
+
+
+
+.input-container {
+    width: 53%;
+    position: relative;
+}
+
+.right .input-container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #696969;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 10px 0 40px;
+    
+    
+}
+
+.right .search-icon {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 12px;
+    font-size: 18px;
+    color: #616161;
+    
+}
+
+.right button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #F68B1E;
+    background-color: #F68B1E;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    
+}
+
+.right button:hover {
+    background-color: #d4710d;
+    border: 1px solid #d4710d;
+}
+
+
+
+
+.right .ext a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2b2b2b;
+    padding-left: 0px;
+}
+
+.right .ext {
+    white-space: nowrap;
+}
+
+.right .ext i {
+    color: #2b2b2b;
+    /* font-weight: 500; */
+    font-size: 20px;
+    padding-left: 7px;
+
+}
+
+.right .ext:hover a {
+    color: #F68B1E;
+}
+
+.right .ext:hover i {
+    color: #F68B1E;
+}
+
+span.ext.dropdown-center li {
+    line-height: 30px;
+    color: gray;
+  }
+
+
+span.ext.dropdown-center:hover li a {
+    color: gray
+  }
+  
+  span.ext.dropdown-center:hover li a i {
+    color: gray
+  }
+
+
+
+
+
+/* CATEGORY SECTION CSS SATRTS HERE */
+
+.cat-section {
+    display: flex;
+    width: 85vw;
+    margin: 17px auto;
+    column-gap: 15px;
+}
+
+.cat {
+    width: 210px;
+    background-color: white;
+    min-height: fit-content;
+    border-radius: 5px;
+}
+
+.cat ul li {
+    list-style-type: none;
+    padding: 7px 10px 0px 10px;
+    line-height: 1.55;
+}
+
+.cat ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #2b2b2b;
+   
+}
+
+.cat ul li i {
+    font-size: 14px;
+    padding-right: 10px;
+    color: black;
+}
+
+.cat ul li:hover a {
+    color: #F68B1E;
+   
+}
+
+.cat ul li:hover i {
+    color: #F68B1E;
+}
+
+
+/* show or hide cat section in other pages */
+
+.show-cat {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.menu2 .hamburghov:hover > .show-cat {
+    display: block;
+    position: absolute;
+    left: 6%;
+    top: 60px;
+    box-shadow: 4px 4px 15px rgb(170, 170, 170, 0.9);
+}
+
+
+
+/* css for the hover of stores  */
+
+
+.store {
+    position: relative;
+}
+
+.show-store-items {
+    display: none;
+    /* position: absolute; */
+    z-index: 1000;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    /* overflow-x: scroll; */
+}
+
+.ps-1 li:hover .show-store-items {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    box-shadow: 4px 4px 15px rgba(156, 156, 156, 0.9);
+    border-radius: 10px;
+
+    display: flex;
+    column-gap: 70px;
+}
+
+
+.ps {
+    font-size: 12px;
+    line-height: 10px;
+}
+
+
+
+
+/* css for hover store ends */
+
+
+
+.middle {
+    flex: 1;
+    /* background-color: lightpink; */
+    height: 57.7vh;
+    border-radius: 5px;
+    background-image: url(../images/Slider.png);
+
+}
+
+
+.right-advert {
+    width: 210px;
+    
+    height: 57.7vh;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.right-advert .top-advert {
+    flex: 1;
+    /* background-color: lightblue; */
+    /* border-radius: 5px; */
+    background-image: url(../images/bsb.png);
+    
+    /* line-height: 0.9; */
+
+}
+
+.call-number {
+    font-size: 14px;
+}
+
+.right-advert .down-advert {
+    flex: 1;
+    /* background-color: lightblue; */
+    border-radius: 5px;
+    background-image: url(../images/JForce.png);
+
+}
+
+
+
+
+ /* CSS FOR HEADER END */
+
+
+
+
+
+.ossymax-container-xlg{
+    width:100%;
+    margin: auto;
+}
+
+.ossymax-container-xlg img:hover{
+width: 100%;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 3px 4px 2px;
+    margin-top: 30px;
+} 
+
+
+.ossymax-col-s h2{
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.head,p{
+    font-weight: bold;
+    
+    
+}
+    
+
+
+
+
+.ossymax{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.link a{
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.ossymax9{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+
+
+.link9 a{
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+.ossymax-container{
+    width: 80%;
+    margin: auto;
+}
+
+.h4{
+    position: absolute;
+    left: 150px;
+    font-size: 10px;
+    top: 10px;
+    
+}
+
+
+
+.col-sm-2 img{
+    width: 120px;
+}
+
+.col-sm-2 h4{
+    font-size: 10px;
+    color: orange;
+    position: relative;
+    
+}
+
+.col-sm-2 p{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ossym{
+    position: relative;
+}
+
+.ossym button{
+    position: absolute;
+    margin-left: 5px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+    
+    
+}
+ul,li{
+    list-style-type: none;
+}
+ul,li a{
+    text-decoration: none;
+}
+
+p a{
+    text-decoration: none;
+}
+
+
+.ossy-max{
+    width: 100%;
+}
+.ossymaxcohort11-container{
+    display: flex;
+    width: 80%;
+    column-count: 2;
+    gap: 10px;
+    margin: auto;
+}
+
+
+
+.ossym input{
+    padding: 3px 5px;
+    border-radius: 10px;
+     margin-left: 30px;
+     font-size: bolder;
+   
+}
+
+
+
+
+.ossy{
+    width: 25%;
+    height: 250vh;
+    font-size: 15px;
+}
+
+input[type=range]{
+    width: 80%;
+    /* background-color: orange; */
+    color: orange;
+}
+
+
+
+
+
+
+/* CATEGORY SECTION */
+.col-sm-3 img{
+    width: 200px;
+}
+
+.col-sm-3 h3{
+    font-size: 5px;
+    background-color: red;
+    color: white;
+    width: 70px;
+    padding:3px ;
+    font-weight: bolder;
+    
+    
+    
+}
+
+.ossy-max{
+    width: 100%;
+    font-size: 12px;
+}
+.col-sm-3 p{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+/* MY FOOTER CONTENT PAGE STARTS HERE */
+.footer-ossymaxcontainer-xxlg{
+    width: 80%;
+    margin: auto;
+}
+
+.footer-ossymaxcontainer-xxlg img:hover{
+    width: 100%;
+}
+
+
+.footercontent{
+    width: 90%;
+    margin: auto;
+}
+
+.footercontent img{
+    width: 200px;
+}
+
+
+.foot2 a{
+    color: orange !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footerlist-container a{
+    color:black !important;
+}
+
+
+
+
+
+.footagecontainer-ossymax{
+    max-width: 90%;
+    margin: auto;
+    font-size: 12px;
+    /* text-indent: 1px; */
+
+}
+
+.footagecontainer-ossymax h2{
+    font-size: 15px;
+}
+
+.container-footage{
+    width: 90%;
+    margin: auto;
+    font-size:11px ;
+}
+
+
+
+/* BOTTOM FOOTER OF MY JUMIA SECTIONS STARTS HERE */
+
+.nxt-footer{
+    background-color: #565658;
+    width: 100%;
+}
+.fap{
+    font-size: 13px;
+}
+
+.paddyman{
+    font-size: 15px;
+}
+
+.coderX{
+    width: 82%;
+}
+
+.coderP{
+    width: 60%;
+    margin-left: 35px;
+}
+
+
+hr{
+    width: 88%;
+}
+
+.botlink{
+    padding: 12px 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.botlink:hover{
+    border: 1px solid rgb(247, 109, 18);
+    color: rgb(247, 109, 18);
+}
+
+.botlink2{
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+
+.botlink2:hover{
+    border: 1px solid rgb(247, 109, 18);
+}
+
+.sublink{
+    font-size: 8px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sublink:hover{
+    color: rgb(247, 109, 18);
+}
+
+
+
+.sublink2{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.sublink2:hover{
+    color: rgb(247, 109, 18);
+}
+
+.main-form{
+    position: relative;
+}
+
+.font-1{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+.font-2{
+    position: absolute;
+    top: 18px;
+    left: 8px;
+}
+
+.footer-logo{
+    margin-left: -15px;
+}
+
+input[type=email]:focus {
+    border: solid rgb(247, 109, 18);
+    outline: none;
+  }
+
+.mailer:hover{
+    color: rgb(247, 109, 18);
+}
+
+.a-special{
+    text-decoration: none;
+}
+
+.a-special:hover{
+    text-decoration: underline;
+}
+
+.text-p:hover{
+    color: rgb(247,109,18);
+}
+
+
+
+
+
+
+
+
+
+
+

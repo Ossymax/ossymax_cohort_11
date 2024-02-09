@@ -1,0 +1,50 @@
+
+
+
+
+
+.ossymax-commerce-container-xlg{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/cross-border-trade.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 200vh;
+    font-size: 18px;
+   
+}
+
+
+.ossymax-commerce-container-fluid{
+    background-color: rgba(85, 85, 204, 0.5);
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    /* background: transparent; */
+    font-size: 18px;
+}
+
+
+
+
+/* MOBILE RESPONSIVENESS FOR CONTAINER-XLG AND FLUID */
+
+@media screen and (max-width:900px){
+
+    .ossymax-container-xlg{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .ossymax-container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
